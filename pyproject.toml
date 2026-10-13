@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hm80-linux"
+version = "0.1.0"
+description = "Linux configurator for the SikaKeyb / HEMU HM80 Hall-effect keyboard"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = ["PySide6-Essentials>=6.5"]
+
+[project.scripts]
+hm80 = "hm80.gui:main"
+
+[tool.setuptools]
+packages = ["hm80"]
+
+[tool.setuptools.package-data]
+hm80 = ["icon.svg", "*.png"]
