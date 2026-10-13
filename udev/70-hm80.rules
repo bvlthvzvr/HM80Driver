@@ -1,0 +1,3 @@
+# SikaKeyb / HEMU HM80 (USB c019:1234)
+# Let the logged-in user open the configuration port, and keep ModemManager from probing it with AT commands.
+SUBSYSTEM=="tty", ATTRS{idVendor}=="c019", ATTRS{idProduct}=="1234", TAG+="uaccess", ENV{ID_MM_DEVICE_IGNORE}="1"
