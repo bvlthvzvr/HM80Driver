@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=HM80 Configurator
+GenericName=Keyboard Configurator
+Comment=Configure the SikaKeyb / HEMU HM80 Hall-effect keyboard
+Exec=hm80
+Icon=hm80-linux
+Terminal=false
+Categories=Settings;HardwareSettings;
+Keywords=keyboard;hall effect;rapid trigger;actuation;hm80;
+StartupWMClass=hm80-linux
