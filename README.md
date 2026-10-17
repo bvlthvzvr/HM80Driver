@@ -2,7 +2,7 @@
 
 
                <p align="center">
-  <b>Actuation</b> · <b>Key modes</b> · <b>Key functions</b> · <b>Lighting</b> · <b>Layers</b> · <b>Screen</b> · <b>Key Calibration</b>  
+  <b>Actuation</b> · <b>Key Modes</b> · <b>Key Functions</b> · <b>Lighting</b> · <b>Layers</b> · <b>Screen</b> · <b>Key Calibration</b>  
 </p>
 <br>
 
